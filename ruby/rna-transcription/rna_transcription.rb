@@ -8,7 +8,7 @@ class Complement
     'C' => 'G',
     'T' => 'A',
     'A' => 'U'
-  }
+  }.freeze
 
   def self.of_dna(dna)
     return '' unless valid?(dna)
